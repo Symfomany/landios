@@ -25309,3 +25309,10 @@ a.logo img{
     color: #e9168c !important;
     margin-left: 90px;
 }
+.icon-box-content{
+    text-align: center;
+}
+#map {
+    height: 600px;  
+    width: 100%;  
+}
