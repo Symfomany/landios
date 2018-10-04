@@ -16746,7 +16746,7 @@ html:not(.no-cssanimations) .animate_when_almost_visible[data-speed="1000"] {
     font-size: 28px;
 }
 }.fontsize-338686 {
-    font-size: 75px;
+    font-size: 4.2rem;
 }
 @media (max-width:959px) {
     .fontsize-338686 {
@@ -25312,6 +25312,7 @@ a.logo img{
 #map {
     height: 600px;  
     width: 100%;  
+    border: 1px solid #eee;
 }
 
 
@@ -25368,4 +25369,15 @@ a.logo img{
         margin-top: 250px !important;
     }
 
+}
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
 }

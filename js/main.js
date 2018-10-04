@@ -1,8 +1,17 @@
+new WOW().init();
 
-const myVivus = new Vivus('my-svg', { type:'oneByOne', duration: 300, start: 'autostart' });
-const myVivusTwo = new Vivus('my-svg-two', { type:'oneByOne',duration: 300, start: 'autostart' });
-const myVivusThree = new Vivus('my-svg-three', { type:'oneByOne',duration: 300, start: 'autostart' });
-const myVivusFour = new Vivus('my-svg-four', { type:'oneByOne',duration: 300, start: 'autostart' });
+
+const waypoint = new Waypoint({
+	element: document.getElementById('concepts'),
+	handler: function(direction) {
+		new Vivus('my-svg', { type:'oneByOne', duration: 500, delay: 100, start: 'autostart' });
+		new Vivus('my-svg-two', { type:'oneByOne',duration: 500, delay: 200, start: 'autostart' });
+		new Vivus('my-svg-three', { type:'oneByOne',duration: 500, delay: 300, start: 'autostart' });
+		 new Vivus('my-svg-four', { type:'oneByOne',duration: 500, delay: 400, start: 'autostart' });
+	}
+  })
+
+
  // Initialize and add the map
  function initMap() {
 	// The location of Uluru
@@ -223,15 +232,23 @@ const myVivusFour = new Vivus('my-svg-four', { type:'oneByOne',duration: 300, st
 
 }
 
-grecaptcha.ready(function() {
-	grecaptcha.execute('6LfDhXMUAAAAAKVXsBhebunGC0eh3aSDfWxYLJ9Z', {action: 'homepage'})
-	.then(function(token) {
-		console.log(token)
-	});
-});
+// grecaptcha.ready(function() {
+// 	grecaptcha.execute('6LfDhXMUAAAAAKVXsBhebunGC0eh3aSDfWxYLJ9Z', {action: 'homepage'})
+// 	.then(function(token) {
+// 		console.log(token)
+// 	});
+// });
 
 $(document).ready(function(){
-	initMap();
+new Audio('../notif.mp3').play();
+
+$('a.contactez').click((e) => {
+	e.preventDefault();
+	var speed = 750; // Durée de l'animation (en ms)
+	$('html, body').animate( { scrollTop: $('#contactez-nous').offset().top }, speed ); // Go
+	
+})
+
 $('form.wpcf7-form').submit((e) => {
 	e.preventDefault();
 	$.ajax({

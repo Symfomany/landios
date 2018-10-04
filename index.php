@@ -19,6 +19,8 @@
 
 ?>
 
+
+
 <html class="no-touch admin-mode webkit chrome chrome69 mac mac10 mac10_13 js no-hidpi datauri minw_1200 orientation_landscape"
 lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,6 +40,24 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 <meta name="state" content="Rhône-Alpes">
 <meta name="city" content="Lyon">
 <meta name="category" content="Formation iOS à Lyon">
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="/img/icons/img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
 
 <meta name="geo.region" content="FR-51" />
@@ -63,6 +83,8 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 <link rel="canonical" href="https://ios-formation.fr">
 <link rel="shortlink" href="https://ios-formation.fr">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+
 <link rel="manifest" href="./manifest.json">
 
 </head>
@@ -82,7 +104,7 @@ data-border="0">
                                 <div data-parent="true" class="vc_row gradient style-color-wayh-bg row-container with-parallax onepage-section has-dividers boomapps_vcrow"
                                     data-label="iphone" data-name="iphone" data-section="0">
                                     <div class="row-background background-element">
-                                        <div class="background-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                                        <div class="background-wrapper">
                                             <video style="position: fixed;
                                                 right: 0;
                                                 bottom: 0;
@@ -116,23 +138,22 @@ data-border="0">
 
                                     <div class="row col-double-gutter triple-top-padding no-bottom-padding single-h-padding limit-width row-parent row-header"
                                         data-height-ratio="97" data-row-header="true" data-imgready="true">
-                                        <div class="row-inner cols-md-responsive" style="height: 786px;">
+                                        <div  class="row-inner cols-md-responsive">
                                             <div class="pos-bottom pos-center align_left align_center_mobile column_parent col-lg-12 boomapps_vccolumn col-md-100 single-internal-gutter">
-                                                <div class="uncol style-dark animate_when_almost_visible bottom-t-top start_animation"
-                                                    data-delay="200">
+                                                <div class="uncol style-dark">
                                                     <div class="uncoltable">
                                                         <div class="uncell  boomapps_vccolumn no-block-padding">
                                                             <div class="uncont">
                                                                 <div class="row-internal row-container boomapps_vcrow">
                                                                     <div class="row unequal row-child">
                                                                         <div class="row-inner cols-md-responsive">
-                                                                            <div class="pos-middle pos-center align_left align_center_mobile column_child col-lg-6 boomapps_vccolumn col-md-50 half-internal-gutter">
+                                                                            <div class="pos-middle pos-center align_left align_center_mobile column_child col-lg-5 boomapps_vccolumn col-md-50 half-internal-gutter">
                                                                                 <div class="uncol style-dark shift_y_neg_quad">
                                                                                     <div class="uncoltable">
                                                                                         <div class="uncell  boomapps_vccolumn no-block-padding">
                                                                                             <div class="uncont  mobile-top">
                                                                                                 <div class="heading-text el-text">
-                                                                                                    <h2 class="font-762333 fontsize-338686 fontheight-179065 fontspace-111509 font-weight-800">
+                                                                                                    <h2 id="concepts" class="font-762333 fontsize-338686 fontheight-179065 fontspace-111509 font-weight-800">
                                                                                                         <span>Formation
                                                                                                             iOS à
                                                                                                             Lyon</span>
@@ -150,16 +171,12 @@ data-border="0">
                                                                                                             et
                                                                                                             concrète
                                                                                                             autour
-                                                                                                            <i>d'une
-                                                                                                                application
-                                                                                                                développé
+                                                                                                            d'une
+                                                                                                                application iOS
+                                                                                                                développée
                                                                                                                 de
-                                                                                                                A-Z</i>
-                                                                                                            sur le
-                                                                                                            <b>développement
-                                                                                                                d'application
-                                                                                                                iOS</b>
-                                                                                                            pour
+                                                                                                                A-Z
+                                                                                                            sur
                                                                                                             iPhone
                                                                                                             et iPad
                                                                                                             à Lyon
@@ -172,14 +189,17 @@ data-border="0">
                                                                                                     <span class="empty-space-inner"></span>
                                                                                                 </div>
                                                                                                 <span class="btn-container btn-inline">
-                                                                                                    <a href="#"
-                                                                                                        title="Programme de la formation iOS Apple"
+                                                                                                    <a 
+                                                                                                        target="_blank"
+                                                                                                            title="Programme de la formation iOS"
+                                                                                                            href="uploads/programme.pdf"
                                                                                                         class="custom-link btn btn-lg border-width-0 btn-accent btn-flat btn-icon-left"
                                                                                                        ><i style="vertical-align: middle" class="material-icons">search</i>Voir le programme</a>
                                                                                                 </span>
                                                                                                 <span class="btn-container btn-inline">
-                                                                                                    <a href="#" title="Contactez la formation iOS iPhone"
-                                                                                                        class="custom-link btn btn-lg border-width-0 btn-default btn-flat btn-icon-left"
+                                                                                                    <a title="Contactez la formation iOS iPhone"
+                                                                                                        href="#contactez-nous"
+                                                                                                        class="contactez custom-link btn btn-lg border-width-0 btn-default btn-flat btn-icon-left"
                                                                                                        ><i
                                                                                                             style="vertical-align: middle"
                                                                                                             class="material-icons">email</i> Prise de contact</a>
@@ -203,7 +223,7 @@ data-border="0">
                                                                                                 <div class="uncode-single-media  text-center">
                                                                                                     <div class="single-wrapper"
                                                                                                         style="max-width: 480px;">
-                                                                                                        <div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+                                                                                                        <div data-wow-duration="1s" class="wow slideInUp tmb tmb-light tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
                                                                                                             <div
                                                                                                                 class="t-inside">
                                                                                                                 <div
@@ -216,6 +236,7 @@ data-border="0">
                                                                                                                                 src="uploads/2018/04/iphone-x-min-uai-516x992.png"
                                                                                                                                 width="516"
                                                                                                                                 height="806"
+                                                                                                                                
                                                                                                                                 alt="">
                                                                                                                         </div>
                                                                                                                     </div>
@@ -372,9 +393,8 @@ data-border="0">
                                                                                 <div class="icon-box-heading icon-box-fa-2x">
 
                                                                                     <svg id="my-svg-three" x="0px"
-                                                                                        y="0px"  viewBox="0 0 512 512"
-                                                                                        width="80"
-                                                                                        xml:space="preserve">
+                                                                                        y="0px"  
+                                                                                        viewBox="0 0 512 512" width="80">
                                                                                         <path stroke-width="5" fill="none" stroke="#e9168c" d="M358.75,0H114.061C97.555,0,84.128,13.428,84.128,29.934v412.944c0,16.505,13.428,29.934,29.934,29.934H358.75   c16.506,0,29.934-13.428,29.934-29.934V29.934C388.683,13.428,375.256,0,358.75,0z M99.128,75.236h274.556v312.687H99.128V75.236z    M114.061,15H358.75c8.234,0,14.934,6.699,14.934,14.934v35.302H99.128V29.934C99.128,21.699,105.827,15,114.061,15z    M358.75,457.811H114.061c-8.234,0-14.934-6.699-14.934-14.934v-44.955h274.556v44.955   C373.683,451.112,366.984,457.811,358.75,457.811z"/>
                                                                                         <path stroke-width="5" fill="none" stroke="#e9168c" d="m236.406,404.552c-13.545,0-24.564,11.02-24.564,24.565s11.02,24.564 24.564,24.564 24.564-11.02 24.564-24.564-11.019-24.565-24.564-24.565zm0,39.129c-8.031,0-14.564-6.534-14.564-14.564 0-8.031 6.533-14.565 14.564-14.565s14.564,6.534 14.564,14.565c0,8.03-6.533,14.564-14.564,14.564z"/>
                                                                                         <path stroke-width="5" fill="none" stroke="#e9168c" d="m202.406,47.645h68c2.762,0 5-2.239 5-5s-2.238-5-5-5h-68c-2.762,0-5,2.239-5,5s2.238,5 5,5z"/>
@@ -388,8 +408,7 @@ data-border="0">
                                                                                 <p class="text-top-reduced text-lead">Développer
                                                                                     avec
                                                                                     les composants natifs iOS pour iPhone et
-                                                                                    stockez les données sous une
-                                                                                    architecture MVC
+                                                                                    stocker les données  MVC
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -414,8 +433,7 @@ data-border="0">
                                                                                 <div class="icon-box-heading icon-box-fa-2x">
                                                                                     <svg id="my-svg-four" x="0px" y="0px"
                                                                                     width="80"
-                                                                                        viewBox="0 0 512 512"
-                                                                                        xml:space="preserve">
+                                                                                        viewBox="0 0 512 512">
                                                                                        <path stroke-width="5"  fill="none" stroke="#e9168c"
                                                                                         d="m426.492188 348.875h-.03125c-14.722657-.007812-23.035157-7.648438-27.792969-25.53125-4.863281-18.289062-5.027344-44.8125-5.199219-72.894531-.207031-34.023438-.441406-72.585938-8.898438-107.074219-1-4.078125-5.121093-6.574219-9.199218-5.574219-4.074219 1-6.570313 5.117188-5.574219 9.195313 8.035156 32.75 8.261719 70.363281 8.464844 103.546875.179687 29.078125.34375 56.542969 5.707031 76.707031 2.332031 8.769531 5.675781 15.976562 9.996094 21.625h-316.855469c4.320313-5.648438 7.664063-12.855469 9.996094-21.625 5.363281-20.164062 5.53125-47.628906 5.707031-76.707031.269531-44.394531.578125-94.710938 18.742188-133.21875 20.445312-43.347657 61-64.421875 123.984374-64.421875 34.589844 0 62.894532 6.5 84.125 19.324218 18.410157 11.117188 31.925782 26.917969 41.320313 48.304688 1.6875 3.84375 6.175781 5.59375 10.019531 3.902344 3.84375-1.6875 5.59375-6.171875 3.90625-10.019532-10.550781-24.015624-26.492187-42.589843-47.382812-55.207031-13.335938-8.054687-28.996094-13.863281-46.832032-17.402343-1.796874-23.347657-21.355468-41.804688-45.15625-41.804688-23.800781 0-43.363281 18.460938-45.148437 41.8125-17.015625 3.371094-32.058594 8.804688-44.96875 16.285156-20.773437 12.039063-36.796875 29.785156-47.625 52.738282-19.59375 41.542968-19.914063 93.644531-20.191406 139.613281-.171875 28.082031-.332031 54.605469-5.199219 72.894531-4.757812 17.882812-13.070312 25.523438-27.792969 25.53125h-.03125c-24.582031 0-44.582031 20-44.582031 44.585938 0 24.582031 20 44.582031 44.582031 44.582031h48.128907c4.199218 0 7.605468-3.40625 7.605468-7.605469s-3.40625-7.601562-7.605468-7.601562h-48.128907c-16.195312 0-29.375-13.179688-29.375-29.375 0-16.195313 13.175781-29.371094 29.371094-29.375h.003906.027344 381.851563.027343.007813c16.191406.003906 29.367187 13.179687 29.367187 29.375 0 16.195312-13.179687 29.375-29.375 29.375h-303.359375c-4.199218 0-7.601562 3.402343-7.601562 7.601562s3.402344 7.605469 7.601562 7.605469h31.214844c3.847656 41.421875 38.785156 73.957031 81.195312 73.957031 42.40625 0 77.34375-32.535156 81.191407-73.957031h109.761719c24.582031 0 44.582031-20 44.582031-44.582031 0-24.585938-20-44.585938-44.582031-44.585938zm-190.953126-333.667969c14.5625 0 26.742188 10.402344 29.503907 24.164063-9.335938-1.101563-19.164063-1.675782-29.503907-1.675782-10.339843 0-20.167968.570313-29.5 1.671876 2.761719-13.761719 14.9375-24.160157 29.5-24.160157zm0 481.585938c-34.015624 0-62.121093-25.734375-65.90625-58.75h131.808594c-3.785156 33.015625-31.890625 58.75-65.902344 58.75zm0 0"/>
                                                                                         <path stroke-width="5" fill="none" stroke="#e9168c" 
@@ -469,7 +487,7 @@ data-border="0">
                                                                                                     <div class="uncont">
                                                                                                         <div class="heading-text el-text">
                                                                                                             <h2
-                                                                                                                class="font-762333 h1 fontheight-357766 fontspace-111509 font-weight-800">
+                                                                                                            data-wow-delay="100ms" class="wow fadeInUp font-762333 h1 fontheight-357766 fontspace-111509 font-weight-800">
                                                                                                                 <span>Une
                                                                                                                     formation
                                                                                                                     intensive
@@ -487,50 +505,53 @@ data-border="0">
                                                                                                     </div>
                                                                                                     <div class="clear"></div>
 
-                                                                                                    <a target="_blank"
-                                                                                                        title="Programme de la formation intensive iOS"
-                                                                                                        href="uploads/programme.pdf"
-                                                                                                        class="custom-link btn btn-lg border-width-0 btn-accent btn-flat btn-icon-left"
-                                                                                                       ><i
-                                                                                                            class="material-icons"
-                                                                                                            style="vertical-align: middle">cloud_download</i> Télécharger le programme</a>
-                                                                                                    <a target="_blank"
-                                                                                                    title="Contactez la formation iOS sur Lyon"
-                                                                                                        href="uploads/programme.pdf"
-                                                                                                        class="custom-link btn btn-lg border-width-0 btn-accent btn-flat btn-icon-left"
+                                                                                                    <div data-wow-delay="300ms" class="wow fadeInUp">
+                                                                                                        <a target="_blank"
+                                                                                                            title="Programme de la formation intensive iOS"
+                                                                                                            href="uploads/programme.pdf"
+                                                                                                            class="custom-link btn btn-lg border-width-0 btn-accent btn-flat btn-icon-left"
                                                                                                         ><i
-                                                                                                            class="material-icons"
-                                                                                                            style="vertical-align: middle">email</i> Prise de contact</a>
+                                                                                                                class="material-icons"
+                                                                                                                style="vertical-align: middle">cloud_download</i> Voir le programme</a>
+                                                                                                        <a 
+                                                                                                            title="Contactez la formation iOS sur Lyon"
+                                                                                                            href="#contactez-nous"
+                                                                                                            class="contactez custom-link btn btn-lg border-width-0 btn-accent btn-flat btn-icon-left"
+                                                                                                            ><i
+                                                                                                                class="material-icons"
+                                                                                                                style="vertical-align: middle">email</i> Prise de contact</a>
+
+                                                                                                    </div>
                                                                                                     <div class="empty-space empty-quart">
                                                                                                         <span class="empty-space-inner"></span>
                                                                                                     </div>
                                                                                                     <div class="clear"></div>
-                                                                                                    <h4><i>Prochaine session le 1<sup>er</sup> Décembre 2018</i></h4>
+                                                                                                    <h4 style="color: #888"><i>Prochaine session le 1<sup>er</sup> Janvier 2019</i></h4>
 
                                                                                                     <div class="clear"></div>
 
                                                                                                     <ul class="icons">
-                                                                                                        <li><b>Format:</b>
+                                                                                                        <li data-wow-delay="900ms" class="wow fadeInUp"><b>Format:</b>
                                                                                                             Plus de 70h. de
                                                                                                             cours
                                                                                                             intensifs
-                                                                                                            et concret</li>
-                                                                                                        <li><b>Nature:</b>Formation
+                                                                                                            et concrets</li>
+                                                                                                        <li data-wow-delay="1000ms" class="wow fadeInUp"><b>Nature:</b>Formation
                                                                                                             100%
                                                                                                             présentiel 
                                                                                                             à Lyon
                                                                                                             3e (le café est offert)</li>
-                                                                                                        <li><b>Connaissance</b>
+                                                                                                        <li data-wow-delay="1100ms" class="wow fadeInUp"><b>Connaissance</b>
                                                                                                             sur un
                                                                                                             langage
                                                                                                             de
                                                                                                             programmation (si possible orientré-objet)</li>
 
-                                                                                                        <li><b>Coût:</b>
+                                                                                                        <li data-wow-delay="1200ms" class="wow fadeInUp"><b>Coût:</b>
                                                                                                             1500€
                                                                                                             HT (remise de 100€ pour les 5 premiers inscrits)</li>
                                                                                                         
-                                                                                                        <li><b>Materiel:</b>
+                                                                                                        <li data-wow-delay="1300ms" class="wow fadeInUp"><b>Materiel:</b>
                                                                                                                 MacBook
                                                                                                                 (l'iPhone
                                                                                                                 est
@@ -557,9 +578,9 @@ data-border="0">
 
                                     <!-- Caroussel -->
                                     <div class="text-center">
-                                        <h2 class="font-762333 h1 fontheight-357766 fontspace-111509 font-weight-800"><span><b>Objectif
+                                        <h2 data-wow-delay="200ms" class="wow fadeInUp font-762333 h1 fontheight-357766 fontspace-111509 font-weight-800"><span><b>Objectif
                                                     N°1</b><br /> Développez une application iOS de A-Z pour iPhone</span></h2>
-                                        <h3 style="margin: 15px;margin-bottom: 50px;" class="font-762333 h1 fontheight-357766 fontspace-111509 font-weight-100">Apprendre
+                                        <h3 data-wow-delay="500ms" style="margin: 15px;margin-bottom: 50px;" class="wow fadeInDown  font-762333 h1 fontheight-357766 fontspace-111509 font-weight-100">Apprendre
                                             à développer une application iOS déployer sur Apple
                                             Store</h3>
                                         <div class="clear"></div>
@@ -608,12 +629,11 @@ data-border="0">
 
 
                                         <!-- Contact -->
-                                        <div class="row no-top-padding no-bottom-padding single-h-padding limit-width row-parent"
+                                        <div id="contactez-nous" class="row no-top-padding no-bottom-padding single-h-padding limit-width row-parent"
                                             data-imgready="true">
                                             <div class="row-inner">
                                                 <div class="pos-middle pos-center align_center column_parent col-lg-12 boomapps_vccolumn half-internal-gutter">
-                                                    <div class="uncol style-light animate_when_almost_visible zoom-in start_animation"
-                                                        data-delay="200" data-speed="600">
+                                                    <div class="uncol style-light">
                                                         <div class="uncoltable">
                                                             <div class="uncell boomapps_vccolumn">
                                                                 <div class="uncont no-block-padding col-custom-width"
@@ -682,11 +702,13 @@ data-border="0">
                                                                                                                     <span
                                                                                                                         class="wpcf7-form-control-wrap your-name">
                                                                                                                         <input
+                                                                                                                        
                                                                                                                             id="name"
                                                                                                                             type="text"
                                                                                                                             name="name"
                                                                                                                             size="40"
-                                                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-xl"
+                                                                                                                            data-wow-delay="100ms" 
+                                                                                                                            class="wow fadeInUp wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-xl"
                                                                                                                             aria-required="true"
                                                                                                                             aria-invalid="false"
                                                                                                                             placeholder="Nom et Prénom *">
@@ -699,7 +721,8 @@ data-border="0">
                                                                                                                         <select
                                                                                                                             name="subject"
                                                                                                                             id="subject"
-                                                                                                                            class="wpcf7-form-control form-xl">
+                                                                                                                            data-wow-delay="300ms" 
+                                                                                                                            class="wow fadeInUp wpcf7-form-control form-xl">
                                                                                                                             <option value="formation_1">Interessé
                                                                                                                                 par
                                                                                                                                 la
@@ -741,7 +764,8 @@ data-border="0">
                                                                                                                             name="email"
                                                                                                                             id="email"
                                                                                                                             size="40"
-                                                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-xl"
+                                                                                                                            data-wow-delay="500ms" 
+                                                                                                                            class="wow fadeInUp wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-xl"
                                                                                                                             aria-required="true"
                                                                                                                             aria-invalid="false"
                                                                                                                             placeholder="Email *">
@@ -756,7 +780,8 @@ data-border="0">
                                                                                                                             name="phone"
                                                                                                                             id="phone"
                                                                                                                             size="40"
-                                                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-xl"
+                                                                                                                            data-wow-delay="600ms" 
+                                                                                                                            class="wow fadeInUp  wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-xl"
                                                                                                                             placeholder="Téléphone">
                                                                                                                     </span>
                                                                                                                 </p>
@@ -769,7 +794,8 @@ data-border="0">
                                                                                                                         id="message"
                                                                                                                         cols="40"
                                                                                                                         rows="10"
-                                                                                                                        class="wpcf7-form-control wpcf7-textarea form-xl"
+                                                                                                                        data-wow-delay="700ms" 
+                                                                                                                        class="wow fadeInUp  wpcf7-form-control wpcf7-textarea form-xl"
                                                                                                                         aria-invalid="false"
                                                                                                                         placeholder="Message"></textarea>
                                                                                                                 </span>
@@ -780,18 +806,18 @@ data-border="0">
                                                                                                             <p>
                                                                                                                 <button
                                                                                                                     type="submit"
-                                                                                                                    class="wpcf7-form-control wpcf7-submit btn btn-accent btn-lg btn-flat btn-shadow-sm">
+                                                                                                                    data-wow-delay="1200ms" 
+                                                                                                                    class="wow fadeInUp wpcf7-form-control wpcf7-submit btn btn-accent btn-lg btn-flat btn-shadow-sm">
                                                                                                                     <i
                                                                                                                         style="vertical-align: middle;"
                                                                                                                         class="material-icons">
                                                                                                                         mail
                                                                                                                     </i>
                                                                                                                     Envoyer
-                                                                                                                    le
+                                                                                                                    mon
                                                                                                                     message
                                                                                                                 </button>
-                                                                                                                <span
-                                                                                                                    class="ajax-loader"></span>
+                                                                                                              
                                                                                                             </p>
                                                                                            
                                                                                                         </form>
@@ -833,7 +859,7 @@ data-border="0">
                                         <!-- Map -->
                                         <div class="row">
 
-                                            <div id="map"></div>
+                                            <div class="wow fadeInUp" id="map"></div>
 
                                         </div>
 
@@ -1051,15 +1077,19 @@ data-border="0">
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/vivus.min.js"></script>
-<script src="js/main.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbdCiAUiZiteBaEkTnCQa6jEZsuDFRgh8&callback=initMap"> </script>
 
-<script src='https://www.google.com/recaptcha/api.js?render=6LfDhXMUAAAAAKVXsBhebunGC0eh3aSDfWxYLJ9Z'></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/wow.min.js"></script>
+
+<script src="js/vivus.min.js"></script>
+<script src="js/waypoint.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- <script src='https://www.google.com/recaptcha/api.js?render=6LfDhXMUAAAAAKVXsBhebunGC0eh3aSDfWxYLJ9Z'></script> -->
 
 
 </body>
 
 </html>
+
