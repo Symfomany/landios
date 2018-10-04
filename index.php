@@ -110,7 +110,7 @@
                                                         data-delay="200">
                                                         <div class="uncoltable">
                                                             <div class="uncell  boomapps_vccolumn no-block-padding">
-                                                                <div class="uncont">
+                                                                <div class="uncont" style="padding-top: 41px;">
                                                                     <div class="row-internal row-container boomapps_vcrow">
                                                                         <div class="row unequal row-child">
                                                                             <div class="row-inner cols-md-responsive">
@@ -162,14 +162,14 @@
                                                                                                     <span class="btn-container btn-inline">
                                                                                                         <a href="http://themeforest.net/item/uncode-creative-multiuse-wordpress-theme/13373220?utm_source=undsgncta&amp;ref=undsgn&amp;license=regular&amp;open_purchase_for_item_id=13373220&amp;purchasable=source"
                                                                                                             class="custom-link btn btn-lg border-width-0 btn-accent btn-flat btn-icon-left"
-                                                                                                           ><i style="vertical-align: middle" class="material-icons">search</i>Voir le programme</a>
+                                                                                                           ><i style="vertical-align: middle" class="material-icons">search</i>Télécharger le programme</a>
                                                                                                     </span>
                                                                                                     <span class="btn-container btn-inline">
                                                                                                         <a href="#"
                                                                                                             class="custom-link btn btn-lg border-width-0 btn-default btn-flat btn-icon-left"
                                                                                                            ><i
                                                                                                                 style="vertical-align: middle"
-                                                                                                                class="material-icons">email</i>Contacter l'intervenant</a>
+                                                                                                                class="material-icons">email</i>La formation m'interesse</a>
                                                                                                     </span>
 
                                                                                                     <div class="empty-space empty-single mobile-hidden">
@@ -336,8 +336,9 @@
                                                                                             et Ergonomie iOS</h3>
                                                                                     </div>
                                                                                     <p class="text-top-reduced text-lead">Maîtriser
-                                                                                        les principaux concepts de Design UX d'une application mobile
-                                                                                        sur les smartphones iPhones
+                                                                                        les principaux concepts UX
+                                                                                        Design d'une application mobile
+                                                                                        sur les smartphones iOS
                                                                                     </p>
                                                                                 </div>
                                                                             </div>
@@ -376,11 +377,12 @@
                                                                                             natifs
                                                                                             iOS</h3>
                                                                                     </div>
-                                                                                    <p class="text-top-reduced text-lead">Développer
+                                                                                    <p class="text-top-reduced text-lead">Composer
                                                                                         avec
-                                                                                        les composants natifs iOS pour iPhone et
+                                                                                        les composants natifs iOS et
                                                                                         stockez les données sous une
-                                                                                        architecture MVC
+                                                                                        architecture
+                                                                                        MVC
                                                                                     </p>
                                                                                 </div>
                                                                             </div>
@@ -471,7 +473,7 @@
                                                                                                                         pour iPhone
                                                                                                                     </span>
                                                                                                                 </h2>
-                                                                                                                <h4><i>Prochaine session le 1er Décembre 2018</i></h4>
+                                                                                                                <h4>Prochaine session le 1er Décembre 2018</h4>
                                                                                                             </div>
                                                                                                             <div class="clear"></div>
                                                                                                             <div class="clear"></div>
@@ -482,19 +484,18 @@
                                                                                                         <a target="_blank"
                                                                                                             href="uploads/programme.pdf"
                                                                                                             class="custom-link btn btn-lg border-width-0 btn-accent btn-flat btn-icon-left"
-                                                                                                           ><i
+                                                                                                            style="min-width:166px"><i
                                                                                                                 class="material-icons"
                                                                                                                 style="vertical-align: middle">cloud_download</i> Télécharger le programme</a>
                                                                                                         <a target="_blank"
                                                                                                             href="uploads/programme.pdf"
                                                                                                             class="custom-link btn btn-lg border-width-0 btn-accent btn-flat btn-icon-left"
-                                                                                                            ><i
+                                                                                                            style="min-width:166px"><i
                                                                                                                 class="material-icons"
                                                                                                                 style="vertical-align: middle">how_to_reg</i> La formation m'interesse</a>
                                                                                                         <div class="empty-space empty-quart">
                                                                                                             <span class="empty-space-inner"></span>
                                                                                                         </div>
-                                                                                                        <div class="clear"></div>
                                                                                                         <div class="clear"></div>
 
                                                                                                         <ul class="icons">
@@ -546,9 +547,9 @@
                                         <!-- Caroussel -->
                                         <div class="text-center">
                                             <h2 class="font-762333 h1 fontheight-357766 fontspace-111509 font-weight-800"><span><b>Objectif
-                                                        N°1</b><br /> Développez une application iOS de A-Z</span></h2>
+                                                        N°1</b> Développez une application iOS de A-Z</span></h2>
                                             <h3 style="margin: 15px;margin-bottom: 50px;" class="font-762333 h1 fontheight-357766 fontspace-111509 font-weight-100">Apprendre
-                                                à développer une application iOS déployer sur Apple
+                                                à développer une application iOS "from-scratch" déployer sur Apple
                                                 Store</h3>
                                             <div class="clear"></div>
                                             <div class="clear"></div>
@@ -613,13 +614,14 @@
                                                                                         <div class="uncol style-dark">
                                                                                             <div class="uncoltable">
                                                                                                 <div class="uncell  boomapps_vccolumn no-block-padding">
-                                                                                                    <div class="uncont">
-                                                                                                        <div class="mobile-hide heading-text el-text">
+                                                                                                    <div class="uncont"
+                                                                                                        style="max-width:600px;">
+                                                                                                        <div class="heading-text el-text">
                                                                                                             <h2 class="font-762333 fontsize-160000 fontspace-210350 text-color-xsdn-color text-uppercase">
-                                                                                                                <span>Contactez-nous</span>
+                                                                                                                <span>Contactez-nous!</span>
                                                                                                             </h2>
-                                                                                                        <div class="clear"></div>
                                                                                                         </div>
+                                                                                                        <div class="clear"></div>
                                                                                                         <div class="heading-text el-text">
                                                                                                             <h2 class="font-762333 h1 fontspace-111509 font-weight-800 text-color-xsdn-color">
                                                                                                                 <span>Interessé
@@ -652,7 +654,8 @@
                                                                                         <div class="uncol style-light">
                                                                                             <div class="uncoltable">
                                                                                                 <div class="uncell  boomapps_vccolumn no-block-padding">
-                                                                                                    <div class="uncont">
+                                                                                                    <div class="uncont"
+                                                                                                        style="max-width:804px;">
                                                                                                         <div role="form"
                                                                                                             class="wpcf7"
                                                                                                             id="wpcf7-f61789-p72416-o1"
@@ -821,15 +824,15 @@
 
                                     </div>
                                 </div>
-                            </div>
-                    <!-- sections container -->
-
+                        </div>
                         </article>
                     </div>
+                    <!-- sections container -->
+
+                </div>
                 <!-- page wrapper -->
 
-
-                         <!-- footer -->
+                <!-- footer -->
                 <footer id="colophon" class="site-footer">
                     <div data-parent="true" class="vc_row style-color-rgdb-bg row-container mobile-hidden boomapps_vcrow"
                         data-section="7">
@@ -1019,11 +1022,6 @@
                     </div>
                 </footer>
 
-
-                </div>
-                <!-- main wrapper -->
-
-           
             </div>
             <!-- main container -->
         </div>
@@ -1302,24 +1300,22 @@
                             <li>Parking of Cuirassiers</li>
                         </ul>`;
             // The map, centered at Uluru
-            const map = new google.maps.Map(
+            var map = new google.maps.Map(
                 document.getElementById('map'), {
                     styles: styles,
-                    zoom: 14, center: uluru
+                    zoom: 15, center: uluru
                 });
 
-            const infowindow = new google.maps.InfoWindow({
+            var infowindow = new google.maps.InfoWindow({
                 content: contentString
             });
-            const marker = new google.maps.Marker({ position: uluru, map: map, title: 'Quartier Affaire Lyon 3 Part Dieu' });
+            var marker = new google.maps.Marker({ position: uluru, map: map, title: 'Quartier Affaire Lyon 3 Part Dieu' });
 
             google.maps.event.addListener(marker, 'click', function () {
                 infowindow.open(map, marker);
             });
-            if (typeof window.orientation == 'undefined') { 
-                infowindow.open(map, marker);
-             }
 
+            infowindow.open(map, marker);
 
         }
 

@@ -1389,11 +1389,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, .3);
     overflow: initial!important;
 }
-@media (max-width:569px) {
-    body.logged-in.admin-bar {
-    padding-top: 46px!important;
-}
-}.box-wrapper {
+.box-wrapper {
     display: table;
     table-layout: fixed;
     width: 100%;
@@ -25315,4 +25311,56 @@ a.logo img{
 #map {
     height: 600px;  
     width: 100%;  
+}
+
+
+/* Mobile Devices */
+@media (max-width:569px) {
+
+    .btn-accent{
+        padding: 20px !important;
+    }
+    .mobile-hide {
+        display: none;
+    }
+    .row div.column_child.pos-bottom{
+        padding: 0;
+    }
+
+    .h1:not([class*="fontsize-"]), .main-container .row-container .row-parent .uncont>*:first-child:not(.divider-wrapper):not(.edit-account)>*:first-child:not(.isotope-wrapper):not(.justified-wrapper):not(.index-wrapper):not(.edit-account) {
+        /* margin-top: 100px !important; */
+        font-size: 1.8rem;
+    }
+    a.logo {
+        position: absolute;
+        top: 0;
+        left: 36%;
+        z-index: 20000;
+    }
+    .main-container .row-container .triple-top-padding{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-container .row-container .quad-bottom-padding{
+        padding-top: 0;
+    }
+ 
+    .wpcf7-inline-wrapper .wpcf7-inline-field, .wpcf7-inline-wrapper .wpcf7-inline-field:first-child, .wpcf7-inline-wrapper .wpcf7-inline-field:last-child{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding-left: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .row div[class*=col-lg-].pos-top{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+
+    .header-wrapper .heading-text h2{
+        margin-top: 100px !important; 
+    }
+
 }
