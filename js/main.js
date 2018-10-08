@@ -257,6 +257,7 @@ $('form.wpcf7-form').submit((e) => {
 		data: $('form.wpcf7-form').serialize(),
 	  }).done((data) =>  {
 		$('form.wpcf7-form').slideUp();
+		$('#thx').fadeIn();
 
 	})
 
