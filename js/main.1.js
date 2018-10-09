@@ -14,9 +14,9 @@ const waypoint = new Waypoint({
  // Initialize and add the map
  function initMap() {
 	// The location of Uluru
-	const uluru = { lat: 45.756900, lng: 4.852230 };
+			var uluru = { lat: 45.756900, lng: 4.852230 };
 
-	const styles = [
+			var styles = [
 		{
 		"featureType": "water",
 		"elementType": "geometry",
@@ -193,7 +193,7 @@ const waypoint = new Waypoint({
 		}
 		];
 
-		const contentString = `
+			var contentString = `
 				<h3>Quartier d'Affaires Lyon 3 - Part Dieu</h3>
 				<h6>Transports publics</h6>
 				<ul>
@@ -236,7 +236,7 @@ $(document).ready(function(){
 
 $('a.contactez').click((e) => {
 	e.preventDefault();
-	const speed = 750; // Durée de l'animation (en ms)
+	var speed = 750; // Durée de l'animation (en ms)
 	$('html, body').animate( { scrollTop: $('#contactez-nous').offset().top }, speed ); // Go
 	
 })
@@ -245,7 +245,7 @@ $('form.wpcf7-form').submit((e) => {
 	e.preventDefault();
 	$.ajax({
 		type: "POST",
-		url: "/?send=true",
+		url: "/",
 		data: $('form.wpcf7-form').serialize(),
 	  }).done((data) =>  {
 		$('form.wpcf7-form, #thx-remove').slideUp();

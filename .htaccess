@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <IfModule mod_rewrite.c>
  RewriteCond %{REQUEST_URI} /+[^\.]+$
  RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
@@ -7,6 +8,20 @@
 <FilesMatch "\.(ico|pdf|flv)$">
 Header set Cache-Control "max-age=29030400, public"
 </FilesMatch>
+=======
+# MOD_DEFLATE COMPRESSION
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
+#Pour les navigateurs incompatibles
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+#ne pas mettre en cache si ces fichiers le sont déjà
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+#les proxies doivent donner le bon contenu
+Header append Vary User-Agent env=!dont-vary
+>>>>>>> 4e0aa566b2d6ad3b3dbeb6e59aa4b04ac8143f4d
 
 RewriteEngine on
 #Check to see if browser can accept gzip files. If so and we have it - serve it!
@@ -91,6 +106,7 @@ Header unset Cache-Control
 </IfModule>
 # END Cache-Control Headers
 
+<<<<<<< HEAD
 # MOD_DEFLATE COMPRESSION
 SetOutputFilter DEFLATE
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
@@ -103,3 +119,8 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
 #les proxies doivent donner le bon contenu
 Header append Vary User-Agent env=!dont-vary
+=======
+# KILL THEM ETAGS
+Header unset ETag
+FileETag none
+>>>>>>> 4e0aa566b2d6ad3b3dbeb6e59aa4b04ac8143f4d
