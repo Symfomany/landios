@@ -79,6 +79,9 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 
 <link rel="stylesheet" id="uncodefont-google-css" href="//fonts.googleapis.com/css?family=Poppins%3A300%2Cregular%2C500%2C600%2C700%7CDroid+Serif%3Aregular%2Citalic%2C700%2C700italic%7CDosis%3A200%2C300%2Cregular%2C500%2C600%2C700%2C800%7CPlayfair+Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic%7COswald%3A300%2Cregular%2C700%7CRoboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic%7CNunito%3A200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic&amp;subset=devanagari%2Clatin-ext%2Clatin%2Ccyrillic%2Cvietnamese%2Cgreek%2Ccyrillic-ext%2Cgreek-ext&amp;ver=1.0.0">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<link rel="stylesheet"  href="css/snackbar.min.css" type="text/css" media="all">
 
 <link rel="stylesheet" id="uncode-custom-style-css" href="css/style-custom.min.css" type="text/css" media="all">
 
@@ -86,11 +89,13 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 <link rel="shortlink" href="https://ios-formation.fr">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/noty.min.css">
 <link rel="manifest" href="./manifest.json">
 
 </head>
 
 <body class="home page-template-default page page-id-72416 page-child parent-pageid-43938">
+
 <div class="box-wrapper">
 <a class="logo" href="/" title="Formation iOS à Lyon 3 pour iPhone et Ipad"><img alt="Formation iOS avec XCode à Lyon" src="img/logo.png" /></a>
 <div class="box-container">
@@ -372,7 +377,7 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 
 
                                             <!-- Article 3 -->
-                                            <div class="pos-top pos-center align_left column_parent col-lg-3  mobile-hidden col-md-33 single-internal-gutter">
+                                            <div class="pos-top pos-center align_left column_parent col-lg-3  col-md-33 single-internal-gutter">
                                                 <div class="uncol style-light">
                                                     <div class="uncoltable">
                                                         <div class="uncell   no-block-padding">
@@ -412,7 +417,7 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
                                             </div>
 
                                             <!-- Article 4 -->
-                                            <div class="pos-top pos-center align_left column_parent col-lg-3  tablet-hidden mobile-hidden col-md-clear single-internal-gutter">
+                                            <div class="pos-top pos-center align_left column_parent col-lg-3  tablet-hidden col-md-clear single-internal-gutter">
                                                 <div class="uncol style-light">
                                                     <div class="uncoltable">
                                                         <div class="uncell   no-block-padding">
@@ -878,7 +883,7 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 
              <!-- footer -->
     <footer id="colophon" class="site-footer">
-        <div data-parent="true" class="vc_row style-color-rgdb-bg row-container mobile-hidden boomapps_vcrow"
+        <div data-parent="true" class="vc_row style-color-rgdb-bg row-container  boomapps_vcrow"
             data-section="7">
             <div class="row double-top-padding double-bottom-padding single-h-padding limit-width row-parent"
                 data-imgready="true">
@@ -1036,17 +1041,22 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
                 <div class="uncell col-lg-6 pos-middle text-right">
                     <div class="social-icon icon-box icon-box-top icon-inline">
                         <a title="Facebook de iOS Formation" href="https://www.facebook.com/Digital-Online-286608642177639/" target="_blank">
-                            <i class="fa fa-social-facebook"></i>
+                            <i class="fab fa-facebook-f"></i>
                         </a>
                     </div>
                     <div class="social-icon icon-box icon-box-top icon-inline">
                         <a title="Twitter de iOS Formation" href="https://twitter.com/DigitalOnline10" target="_blank">
-                            <i class="fa fa-social-twitter"></i>
+                            <i class="fab fa-twitter"></i>
                         </a>
                     </div>
                     <div class="social-icon icon-box icon-box-top icon-inline">
                         <a  title="Linkedin de iOS Formation" href="https://www.linkedin.com/company/digital-online/" target="_blank">
-                            <i class="fa fa-social-linkedin"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon icon-box icon-box-top icon-inline">
+                        <a  title="Meetup de iOS Formation" href="https://www.meetup.com/Swift-iOS-Developers-at-Lyon/" target="_blank">
+                            <i class="fab fa-meetup"></i>
                         </a>
                     </div>
                 </div>
@@ -1068,13 +1078,13 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 </div>
 
 
-
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/vivus.min.js"></script>
 <script src="js/waypoint.min.js"></script>
+<script src="js/snackbar.min.js"></script>
+
 <script src="js/main.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbdCiAUiZiteBaEkTnCQa6jEZsuDFRgh8&callback=initMap"> </script>
 
@@ -1092,6 +1102,41 @@ gtag('config', 'UA-127028987-1');
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
