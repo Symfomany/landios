@@ -81,6 +81,7 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+<link rel="stylesheet"  href="css/snackbar.min.css" type="text/css" media="all">
 
 <link rel="stylesheet" id="uncode-custom-style-css" href="css/style-custom.min.css" type="text/css" media="all">
 
@@ -88,11 +89,13 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 <link rel="shortlink" href="https://ios-formation.fr">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/noty.min.css">
 <link rel="manifest" href="./manifest.json">
 
 </head>
 
 <body class="home page-template-default page page-id-72416 page-child parent-pageid-43938">
+
 <div class="box-wrapper">
 <a class="logo" href="/" title="Formation iOS à Lyon 3 pour iPhone et Ipad"><img alt="Formation iOS avec XCode à Lyon" src="img/logo.png" /></a>
 <div class="box-container">
@@ -1075,13 +1078,13 @@ lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml">
 </div>
 
 
-
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/vivus.min.js"></script>
 <script src="js/waypoint.min.js"></script>
+<script src="js/snackbar.min.js"></script>
+
 <script src="js/main.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbdCiAUiZiteBaEkTnCQa6jEZsuDFRgh8&callback=initMap"> </script>
 
@@ -1099,6 +1102,23 @@ gtag('config', 'UA-127028987-1');
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -10,6 +10,13 @@ const waypoint = new Waypoint({
 	}
   })
 
+   Snackbar.show({
+	showAction: false,   
+	pos: 'bottom-center',width: 'expand', text: `<a style="color: white" 
+	title="Meetup Atelier A la découverte de Swift 4"
+	target="_blank"
+	href="https://www.meetup.com/Swift-iOS-Developers-at-Lyon/events/ptrgjqyxnbfc/">Prochain Meetup "Atelier Swift" sur Le 23 Octobre à 19h00</a>`
+}); 
 
  // Initialize and add the map
  function initMap() {
